@@ -1,3 +1,10 @@
+# 0.24.1
+
+- Update the optional `webpki-roots` dependency to 1.0.10 to address
+  RustSec advisories in the 0.26 compatibility package. The
+  `rustls-tls-webpki-roots` feature is unchanged.
+- Raise the declared MSRV to Rust 1.71, matching `webpki-roots` 1.0.10.
+
 # 0.24.0
 
 - Update dependencies (TLS, tungstenite).
