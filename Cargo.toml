@@ -6,9 +6,9 @@ keywords = ["websocket", "io", "web"]
 authors = ["Daniel Abramov", "Alexey Galakhov"]
 license = "MIT"
 homepage = "https://github.com/snapview/tokio-tungstenite"
-documentation = "https://docs.rs/tokio-tungstenite/0.30.0"
+documentation = "https://docs.rs/tokio-tungstenite/0.30.1"
 repository = "https://github.com/snapview/tokio-tungstenite"
-version = "0.30.0"
+version = "0.30.1"
 edition = "2018"
 rust-version = "1.85"
 include = ["examples/**/*", "src/**/*", "LICENSE", "README.md", "CHANGELOG.md"]
@@ -66,7 +66,7 @@ default-features = false
 
 [dependencies.webpki-roots]
 optional = true
-version = "0.26.0"
+version = "1.0.10"
 
 [dev-dependencies]
 futures-channel = "0.3.28"
