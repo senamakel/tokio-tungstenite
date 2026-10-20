@@ -1,3 +1,8 @@
+# 0.30.1
+
+- Update the optional `webpki-roots` dependency to `1.0.10`, which removes the
+  distrusted emSign root certificate.
+
 # 0.30.0
 
 - Update `tungstenite` to `0.30.0`. See [`tungstenite` release](https://github.com/snapview/tungstenite-rs/blob/master/CHANGELOG.md).
